@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo sóbria */
+    padding: 20px; /* Espaçamento ao redor do conteúdo */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para criar uma grade na tabela */
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd; /* Grade na tabela */
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto nas células */
+}
+
+th {
+    background-color: #4caf50; /* Cor de fundo do cabeçalho */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo alternada para linhas pares */
+}
+
+tr:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+/* Aumentar espaçamento entre linhas */
+tbody {
+    line-height: 1.6;
+}
